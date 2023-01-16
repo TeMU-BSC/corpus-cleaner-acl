@@ -82,6 +82,8 @@ In case Docker or Singularity are used, input data should be placed in a sub-dir
 
 In the case of the virtual environment, data could be placed in other directories, as long as the path is correctly passed as an argument.
 
+Take into account that Corpus Cleaner tool does not divide the corpus into pieces. Therefore, you need to divide your corpus to at least as many files as the number of CPU cores you want to use.
+
 ### Arguments
 
 Currently, Corpus Cleaner has the following arguments:
